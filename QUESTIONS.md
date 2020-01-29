@@ -10,11 +10,15 @@
 - How do we manage / share secrets (passwords, keys)?
 
 - How do we chat / communicate?
-    - Email?
-    - Calls? When and how?
+    - Email? --- Steve says they are trying to reduce email traffic.
+    - Calls? When and how? --- Google Hangouts Meet
     - Group chat for devs?
+        - Google Hangouts Chat seems fundamentally broken for interaction between users within different Google zones; I can't figure out how to allow a Gmail user to join a room I've created in a G Suite organization... this feels like it makes Google Chat a non-starter even before getting to the problem of the required Google account.
+        - Slack has message restrictions and ethics issues
+        - RocketChat?
 
 - What Project Management tool do we want to use?
+    - Asana --- already used at Pariyatti
     - Trello?
     - GitHub boards?
     - Clubhouse? https://app.clubhouse.io/
