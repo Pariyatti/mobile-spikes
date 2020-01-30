@@ -12,6 +12,8 @@ Our UI toolkit options include:
 - Flutter
 - ReactNative on TypeScript
 - ReactNative on vanilla Javascript
+- SvelteNative on TypeScript
+- SvelteNative on vanilla Javascript
 - Apache Cordova
 
 Each has different language constraints and platform constraints we should consider.
