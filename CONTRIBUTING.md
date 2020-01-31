@@ -3,7 +3,7 @@
 
 ## Overview
 
-Please read this document thoroughly and clarify any doubts before making contributions. There are three main points of consideration this document covers. They are all interconnected. The first is a _long-term vision_. It is important to make decisions in the context of Pariyatti (the organization and its resources) surviving for a very long time... well beyond our own lives. The second is _selfless service_. Give your time to Pariyatti software projects because you want to serve others --- to help the people of the world while they walk the path. The last, and perhaps most important, is _sila_. While giving Dhamma Service, always do your utmost not only to maintain your own sila but to ensure no action of yours causes another person to break their sila.
+Please read this document thoroughly and clarify any doubts before making contributions. There are three main points of consideration this document covers. They are all interconnected. The first is a **_long-term vision_**. It is important to make decisions in the context of Pariyatti (the organization and its resources) surviving for a very long time... well beyond our own lives. The second is **_selfless service_**. Give your time to Pariyatti software projects because you want to serve others --- to help the people of the world while they walk the path. The last, and perhaps most important, is **_sila_**. While giving Dhamma Service, always do your utmost not only to maintain your own sila but to ensure no action of yours causes another person to break their sila.
 
 
 ## Long-term Support
