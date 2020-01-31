@@ -3,7 +3,8 @@
 
 ## Overview
 
-- highlight long-term view, selfless service
+- highlight long-term view
+- selfless service
 
 
 ## Long-term Support
@@ -33,6 +34,8 @@ Whether choosing a hardware platform, an operating system, a service provider, a
 It will be very important to converge on meaningful and universally-understood names for all layers of Pariyatti's software architecture. To prevent confusion it will be helpful for all contributors (users, project managers, operations staff, designers, and developers) to share a common language. To this end, each project may have a `GLOSSARY.md` in its root directory. We may also choose to produce a glossary which is global to all projects.
 
 
+TODO:
+- rationale?
 - quality
 - naming
 - time
@@ -45,5 +48,3 @@ It will be very important to converge on meaningful and universally-understood n
 - tool choices
   - github
   - programming language
-
-## Rationale

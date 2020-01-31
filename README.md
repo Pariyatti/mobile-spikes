@@ -10,6 +10,9 @@ Please treat this document as the hub of all other documentation for the Mobile 
 - [Questions](https://github.com/Pariyatti-apps/pariyatti-mobile-app-spike/blob/master/QUESTIONS.md)
 - [Team Roster](https://drive.google.com/drive/folders/1RTAw2izD3m9hb79DJE2uu-4qepFby0px?usp=sharing) (private)
 - [Design Docs](https://drive.google.com/drive/folders/1Iga6z-5tndLJ411XG5ibimLwNC5VZDVv?usp=sharing) (public)
+- [Dhamma Podcast Feed](http://feeds.pariyatti.org/dhammapodcasts)
+- [Daily RSS Feed](https://www.pariyatti.org/Free-Resources/Daily-Words/RSS-Feeds)
+
 
 ## Statement of Purpose
 

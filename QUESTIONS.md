@@ -1,5 +1,6 @@
 # Open Questions
 
+This is a large list of open questions (and a few answers) we hope to discuss with the larger Pariyatti team over the coming weeks and months while kicking off the project for the Pariyatti app. They largely pertain to the high-level operations of the technology team and its stakeholders.
 
 ## Administration
 
