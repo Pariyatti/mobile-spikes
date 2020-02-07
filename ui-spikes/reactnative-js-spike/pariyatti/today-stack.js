@@ -6,17 +6,15 @@ import { createStackNavigator } from 'react-navigation-stack';
 import Constants from 'expo-constants';
 import * as Localization from 'expo-localization';
 import i18n from 'i18n-js';
-import Moment from 'moment';
+import Moment from 'moment/min/moment-with-locales';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-// Set the key-value pairs for the different languages you want to support.
 i18n.translations = {
   en: { welcome: 'Hello' },
   ja: { welcome: 'こんにちは' },
   pl: { welcome: "Cześć" },
   hi: { welcome: "नमस्ते" }
 }
-
 i18n.locale = Localization.locale;
 i18n.fallbacks = true;
 
@@ -27,7 +25,7 @@ class TodayScreen extends React.Component {
     return (
       <SafeAreaView style={styles.container}>
         <ScrollView style={styles.scrollView}>
-          <Text> {Moment(new Date()).format('dddd, Do MMMM')} </Text>
+          <Text>{Moment(new Date()).format('dddd, Do MMMM')} (date locale: {Moment.locale()})</Text>
           <Text>Today</Text>
           <Text>{i18n.t('welcome')} Pariyatti! (i18n locale: {Localization.locale})</Text>
           <Button
