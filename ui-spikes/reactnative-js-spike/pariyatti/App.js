@@ -6,6 +6,7 @@ import { TodayStack } from './today-stack.js';
 import { ResourcesStack } from './resources-stack.js';
 import { AccountStack } from './account-stack.js';
 import { DonateStack } from './donate-stack.js';
+import { Appearance, AppearanceProvider, useColorScheme } from 'react-native-appearance';
 
 const routeToIcon = {
   "Today": "ios-book",
@@ -14,7 +15,7 @@ const routeToIcon = {
   "Donate": "ios-heart"
 };
 
-export default createAppContainer(
+let Navigation = createAppContainer(
   createBottomTabNavigator(
     {
       Today: { screen: TodayStack },
@@ -37,3 +38,13 @@ export default createAppContainer(
       },
     }
   ));
+
+export default () => {
+  const theme = Appearance.getColorScheme();
+
+  return (
+    <AppearanceProvider>
+      <Navigation theme={theme} />
+    </AppearanceProvider>
+  )
+}
