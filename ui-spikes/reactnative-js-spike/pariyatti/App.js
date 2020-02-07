@@ -1,52 +1,39 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, TextInput, View } from 'react-native';
-import * as Localization from 'expo-localization';
-import i18n from 'i18n-js';
+import React from 'react';
+import { Ionicons } from '@expo/vector-icons';
+import { createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { TodayStack } from './today-stack.js';
+import { ResourcesStack } from './resources-stack.js';
+import { AccountStack } from './account-stack.js';
+import { DonateStack } from './donate-stack.js';
 
-// Set the key-value pairs for the different languages you want to support.
-i18n.translations = {
-  en: { welcome: 'Hello' },
-  ja: { welcome: 'こんにちは' },
-  pl: { welcome: "Cześć" },
-  hi: { welcome: "नमस्ते" }
+const routeToIcon = {
+  "Today": "ios-book",
+  "Resources": "ios-book",
+  "Account": "ios-person",
+  "Donate": "ios-heart"
 };
-// Set the locale once at the beginning of your app.
-i18n.locale = Localization.locale;
-// When a value is missing from a language it'll fallback to another language with the key present.
-i18n.fallbacks = true;
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { text: '' };
-  }
+export default createAppContainer(
+  createBottomTabNavigator(
+    {
+      Today: { screen: TodayStack },
+      Resources: { screen: ResourcesStack },
+      Account: { screen: AccountStack },
+      Donate: { screen: DonateStack },
+    },
+    {
+      defaultNavigationOptions: ({ navigation }) => ({
+        tabBarIcon: ({ focused, tintColor }) => {
+          const { routeName } = navigation.state;
+          let iconName = routeToIcon[routeName];
 
-  render() {
-    return (
-      <View style={styles.container}>
-
-        <Text>(I18N) {i18n.t('welcome')} Pariyattssi!</Text>
-
-        <TextInput
-          style={{ height: 40, width: 200, color: "#FF9F33", backgroundColor: "#E1E1E1" }}
-
-          placeholder="Input here"
-          onChangeText={(text) => this.setState({ text })}
-          value={this.state.text}
-        />
-        <Text style={{ padding: 10, fontSize: 12 }}>
-          I've just typed this: {this.state.text}
-        </Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+          return <Ionicons name={iconName} size={25} color={tintColor} />;
+        },
+      }),
+      tabBarOptions: {
+        activeTintColor: 'tomato',
+        inactiveTintColor: 'gray',
+      },
+    }
+  ));

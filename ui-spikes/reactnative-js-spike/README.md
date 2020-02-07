@@ -39,6 +39,11 @@ This will start Expo console web app and open a link in the browser. Choose "Run
 npm install --package-lock
 ```
 
+# Docs
+* http://www.reactnativeexpress.com/ - great resource to learn React Native
+* https://facebook.github.io/react-native/docs/getting-started - official docs
+
+
 # Notes
 
 ## Expo vs bare ReactNative
