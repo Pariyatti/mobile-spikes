@@ -1,19 +1,28 @@
 
 # Introduction
+
 The spike is based on Expo (http://expo.io) framework which is "Ruby on Rails"-like set of tools for ReactNative applications.
 
+# Try it out
+
+1. Install Expo on your phone.
+2. Open this link on your phone: (exp://exp.host/@takaczapka/pariyatti)
+
 # Prerequisites
+
 ```
 sudo npm install expo-cli --global
 ```
 
 # Template created with
+
 ```
 expo init pariyatti
 # option: `blank`
 ```
 
 # Setup the app
+
 ```
 cd pariyatti
 npm install
@@ -21,14 +30,14 @@ npm install
 ```
 
 # Running the app
+
 ```
 cd pariyatti
 npm start
 
 ```
 
-(iOS only for now)
-This will start Expo console web app and open a link in the browser. Choose "Run iOS simulator" to see the app in OSX IPhone Simulator. Alternatively publish it in Echo profile and interact with the app in IPhone via iOS Expo app.  
+This will start Expo console web app and open a link in the browser. Choose "Run iOS simulator" to see the app in OSX IPhone Simulator. Alternatively publish it in Echo profile and interact with the app in IPhone via iOS Expo app.
 
 
 # Troubleshooting
@@ -40,6 +49,7 @@ npm install --package-lock
 ```
 
 # Docs
+
 * http://www.reactnativeexpress.com/ - great resource to learn React Native
 * https://facebook.github.io/react-native/docs/getting-started - official docs
 
