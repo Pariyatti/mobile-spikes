@@ -34,6 +34,7 @@ Not much spiking is required here, but we should be able to answer these questio
 
 **High Priority**
 
+- [ ] load testing: infinite scroll over 1000 fake Today items?
 - [ ] i18n support? (an absolute requirement)
 - [ ] offline-first: cross-platform storage?
 - [ ] oflfine-first: cross-platform media storage (audio/video)?
