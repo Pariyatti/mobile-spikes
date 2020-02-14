@@ -82,3 +82,7 @@ Frameworks may require more research than languages. Try to answer, to the best 
 ### Programming Toolchains
 
 As much as possible, do not restrict the tools of Dhamma Servers: do not dictate operating systems, development environments, or text editors. Not all Dhamma Servers have access to the same hardware and software and (as of this writing, Jan 2020) most software development toolchains are modular, flexible, and cross-platform.
+
+### GitHub?
+
+For the time-being, we have chosen GitHub as a code repository. Although GitHub itself is not open source (yet), it is presently the defacto repository for collaborative open source projects. GitLab is also an option but it is less likely that Dhamma Servers will have a GitLab account. Git (as a data storage format) retains a full history of modifications, making it very easy and open to export. Should we choose to move Pariyatti's repositories from GitHub to GitLab in the future, no historical data will be lost.
