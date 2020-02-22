@@ -84,6 +84,7 @@ Dreamhost servers probably come here. Mentioning which type of Dreamhost service
 - DotNetNuke
 - 3dcart
 - moodle
+- GitHub
 - ???
 
 
@@ -98,10 +99,27 @@ Dreamhost servers probably come here. Mentioning which type of Dreamhost service
 - Servers without public URLs or interfaces?
 
 
+## Shrink-Wrapped Software
+
+`Shrink-Wrapped Software` includes anything that is essential to Pariyatti's operations but not necessarily hosted on the internet. Examples include offline desktop tools like Microsoft Office for spreadsheets and Inkscape for SVGs. Do not bother including specific tools for editing generic data, like text editors.
+
+- ???
+- ???
+
+
 ## Security Tools
 
 `Security Tools` include password managers, SSL certificate management (if done locally), 2-Factor-Auth tools, etc.
 
+- ???
+- ???
+
+
+## Licenses
+
+`Licenses` includes any license required to run essential Pariyatti software and services. Paid, proprietary licenses in particular are worth mentioning.
+
+- BSD License, DotNetNuke
 - ???
 - ???
 
