@@ -157,6 +157,22 @@ If anyone feels uncomfortable with this approach, please leave this section blan
 
 - Asana
 - Google Docs
+- ???
+
+
+## Processes
+
+`Processes` are how pariyatti.org and *.pariyatti.org change over time. When is content edited, and by whom? How often does this happen? What are the big events that signal a change is needed in the content, such as a new pilgrimage? What are the big events which signal a technical change, such as renewing an SSL certificate?
+
+### Repeated Processes
+
+- ???
+- ???
+
+### Ad-Hoc Processes
+
+- ???
+- ???
 
 
 ## New Category One
