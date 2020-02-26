@@ -6,9 +6,11 @@ This is a large list of open questions (and a few answers) we hope to discuss wi
 
 - What is the process for making decisions within the Pariyatti tech team?
 
-- Does Pariyatti have a registred trademark on `Pariyatti`? (avoiding knockoffs)
+- Does Pariyatti have a registred trademark on `Pariyatti`? (avoiding knockoffs) 
+Yes, we do (Brihas)
 
 - How do we manage / share secrets (passwords, keys)?
+We use LastPass Enterprise (Brihas)
 
 - How do we chat / communicate?
     - Email? --- Steve says they are trying to reduce email traffic.
@@ -19,7 +21,7 @@ This is a large list of open questions (and a few answers) we hope to discuss wi
         - RocketChat?
 
 - What Project Management tool do we want to use?
-    - Asana --- already used at Pariyatti
+    - Asana --- already used at Pariyatti, so if we stick to Asana that will be better for Pariyatti staff involved in this project (Brihas)
     - Trello?
     - GitHub boards?
     - Clubhouse? https://app.clubhouse.io/
@@ -33,7 +35,9 @@ This is a large list of open questions (and a few answers) we hope to discuss wi
 
 - Are we replacing DotNetNuke + 3Dcart with Drupal + something-else?
     - Can Dhamma Servers help the Pariyatti staff with this project?
-    - Will Drupal shadow/forward the old URLs so they don't break?
+That would be great! (Brihas)    
+    
+    - Will Drupal shadow/forward the old URLs so they don't break? We've had website transitions in the past, and sucessfully setup HTTP 301 re-directs to map old URLs to new URLs and it works well (Brihas)
 
 
 ## Development
@@ -58,6 +62,8 @@ This is a large list of open questions (and a few answers) we hope to discuss wi
     - DNN / Drupal API?
     - 3Dcart / replacement API?
     - 3x RSS feeds for "Daily Words of the Buddha" - source?
+ You can find all our RSS feeds at: https://www.pariyatti.org/Free-Resources/Daily-Words/RSS-Feeds (Brihas)
+ 
     - Basic UX:
         - "queue a book list into the `Today` stream": where is this persisted?
         - bookmarks peristence?
