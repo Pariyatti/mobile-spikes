@@ -33,19 +33,27 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 
 `Not People` are points-of-contact Pariyatti regularly uses that obfuscate the humans behind it. For example, a `support@company.com` email address.
 
-- ???
-- ???
+- managed
+- vidyamantra
 
 
 ## Pariyatti Services
 
 `Pariyatti Services` are the high-level services Pariyatti owns and provides to its users, irrespective of where or how they are hosted.
 
-1. DotNetNuke (DNN) --- pariyatti.org
-2. 3dcart --- store.pariyatti.org
-3. Moodle --- learning.pariyatti.org
-4. Dreamhost --- generic web/file server
+1. pariyatti.org --- DotNetNuke (DNN) on managed.com (CMS)
+2. store.pariyatti.org --- 3dcart (e-commerce)
+3. learning.pariyatti.org --- moodle on VidyaMantra (e-learning)
+4. downloads.pariyatti.org / host.pariyatti.org --- Dreamhost (generic web/file server)
 5. ???
+
+
+## Administration
+
+pariyatti.org - DNN admin is in-line / WYSIWYG
+store.pariyatti.org/admin
+learning.pariyatti.oreg - moodle admin is in-line / WYSIWYG
+Dreamhost is direct SFTP
 
 
 ## Hardware
@@ -54,8 +62,8 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 
 ### Servers
 
-- ???
-- ???
+- SFTP @ Dreamhost
+- old physical server => azure? (ask Brihas)
 
 ### Official Desktops/Laptops
 
@@ -70,22 +78,30 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 
 ## Virtual Servers
 
-Dreamhost servers probably come here. Mentioning which type of Dreamhost service would be helpful (VPS, shared, cloud, etc.)
+Dreamhost servers come here. Mentioning which type of Dreamhost service would be helpful (VPS, shared, cloud, etc.)
 
 - static IP? / hostname? / purpose?
 - ??? / ??? / ???
+- azure server? (ask Brihas)
 
 
 ## Software-as-a-Service (SaaS)
 
 `SaaS` includes any servers or services over which Pariyatti has limited control. So we don't get too fancy, we'll lump all other `X-as-a-Service` categories under SaaS for now. Examples include `managed.com` for DNN, as well as the DNN instance itself, 3dcart, managed CDNs, etc. If you aren't sure whether or not something is SaaS, list it here and we'll discuss! :)
 
+### Paid
+
 - managed.com
-- DotNetNuke
+- DotNetNuke on managed.com
 - 3dcart
-- moodle
+- dreamhost
+- vidyamantra.com
+- moodle on Vidya Mantra
+- Quizlet.com
+
+### Free
+
 - GitHub
-- ???
 
 
 ## Network Services
@@ -95,6 +111,8 @@ Dreamhost servers probably come here. Mentioning which type of Dreamhost service
 - Domain Registrar?
 - DNS / nameservers?
 - SSL certificate service?
+    => check with Brihas
+
 - Load balancers?
 - Servers without public URLs or interfaces?
 
