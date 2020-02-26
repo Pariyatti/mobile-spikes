@@ -56,6 +56,24 @@ learning.pariyatti.oreg - moodle admin is in-line / WYSIWYG
 Dreamhost is direct SFTP
 
 
+## Data
+
+All 3 major components (DNN, 3dcart, and Dreamhost) interact with one another. Thankfully, most integration happens at the URL level, so it should be easy to replace one component with another and not break the other two. Moodle on VidyaMantra is entirely isolated and it hosts its own files.
+
+Integration Example: DNN might serve an image as part of the website which is a JPEG stored on Dreamhost and links to 3dcart. Because pariyatti.org and store.pariyatti.org have a similar look-and-feel, the website feels seamless on the surface.
+
+- Free Resources:
+  - audio: dreamhost
+  - PDFs: dreamhost
+- Daily Words of the Buddha, Pali Word of the Day, and the Dohas are feeds managed by a perl script on the Dreamhost SFTP server
+- Word of the Day is an ASPX (web) and EXE (windows standalone) program; these programs are stored on Dreamhost
+- podcasts are on Dreamhost, served from host.pariyatti.org
+- Pali lessons:
+  - Moodle lessons (HTML) and content (PDFs/mp3s) are stored in Moodle itself (not Dreamhost)
+  - Quizlet content is stored in Quizlet; PDFs may be exported and uploaded to Moodle
+  - Dynamic Pali content (ex. "Learn Devanagari") is HTML+Javascript stored in Moodle
+
+
 ## Hardware
 
 `Hardware` could be any physical computer or device Pariyatti makes regular use of. "Physical" is important because it captures specific risks: the computer can break down in a way that requires a real-world replacement; the computer can be stolen causing a loss of data.

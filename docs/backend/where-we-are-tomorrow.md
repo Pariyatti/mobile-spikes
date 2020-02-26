@@ -11,7 +11,7 @@ https://help.dreamhost.com/hc/en-us/articles/215769478-Non-profit-discount
 ## WordPress
 
 - Dreamhost has WordPress hosting (if we'd like to continue with Dreamhost and consolidate services)
-
+- It seems like WordPress may have more surface area than Drupal, if that's something we want to consider.
 
 
 ## Drupal
