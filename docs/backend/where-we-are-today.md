@@ -33,8 +33,10 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 
 `Not People` are points-of-contact Pariyatti regularly uses that obfuscate the humans behind it. For example, a `support@company.com` email address.
 
-- managed
-- vidyamantra
+- ???@managed.com
+- ???@3dcart.com
+- ???@vidyamantra
+- ???@dreamhost.com
 
 
 ## Pariyatti Services
@@ -50,6 +52,8 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 
 ## Administration
 
+`Administration` lists the entry points for admins to control the content available through Pariyatti's websites.
+
 pariyatti.org - DNN admin is in-line / WYSIWYG
 store.pariyatti.org/admin
 learning.pariyatti.oreg - moodle admin is in-line / WYSIWYG
@@ -57,6 +61,8 @@ Dreamhost is direct SFTP
 
 
 ## Data
+
+`Data` lists which data formats and which content are stored on which servers/services.
 
 All 3 major components (DNN, 3dcart, and Dreamhost) interact with one another. Thankfully, most integration happens at the URL level, so it should be easy to replace one component with another and not break the other two. Moodle on VidyaMantra is entirely isolated and it hosts its own files.
 
