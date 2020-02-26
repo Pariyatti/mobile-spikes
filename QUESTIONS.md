@@ -15,6 +15,7 @@ We use LastPass Enterprise (Brihas)
 - How do we chat / communicate?
     - Email? --- Steve says they are trying to reduce email traffic.
     - Calls? When and how? --- Google Hangouts Meet
+We have a GoToMeeting account that can be used if needed (Brihas)    
     - Group chat for devs?
         - Google Hangouts Chat seems fundamentally broken for interaction between users within different Google zones; I can't figure out how to allow a Gmail user to join a room I've created in a G Suite organization... this feels like it makes Google Chat a non-starter even before getting to the problem of the required Google account.
         - Slack has message restrictions and ethics issues
