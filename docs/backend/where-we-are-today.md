@@ -17,8 +17,8 @@ Open questions not necessarily pertaining to infrastructure can be found in the 
 
 - Steven D: writing this template, volunteer helping with Pariyatti's backend and mobile app, new to Pariyatti; knows little
 - Steve H: 8 years as Pariyatti staff and probably the person to fill out most of this template.
-- Ankur N: AT and Pariyatti staff; will help Steve H capture information in this doc
-- ???
+- Ankur N: Pariyatti staff; will help Steve H capture information in this doc
+- Brihas S: Executive Director and longest-term staff member. Has been involved with the setup of all the backend systems that exist today.
 - ???
 
 ### External
@@ -55,7 +55,7 @@ Example: Support staff from Dreamhost/3dcart/etc Pariyatti engages with individu
 `Administration` lists the entry points for admins to control the content available through Pariyatti's websites.
 
 pariyatti.org - DNN admin is in-line / WYSIWYG
-store.pariyatti.org/admin
+3DCart admin 
 learning.pariyatti.oreg - moodle admin is in-line / WYSIWYG
 Dreamhost is direct SFTP
 
@@ -87,7 +87,7 @@ Integration Example: DNN might serve an image as part of the website which is a 
 ### Servers
 
 - SFTP @ Dreamhost
-- old physical server => azure? (ask Brihas)
+- Azure virtual server
 
 ### Official Desktops/Laptops
 
