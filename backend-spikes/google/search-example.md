@@ -4,3 +4,13 @@ https://www.google.com/search?sxsrf=ALeKk01ELwVKmj9H7OFK8Yr1bG2Y6PMd_g%3A1584865
 ...is equivalent to...
 
 https://www.google.com/search?q=site%3Apariyatti.org+bhikku+bodhi+lecture
+
+---
+
+https://www.google.com/search?q=site%3Apariyatti.org+CBC
+
+...searching for "CBC" on ElasticSearch Site Search doesn't return anything at all,
+despite the fact that this is both content of a page AND a title. Pretty disappointing.
+I'm sure that ElasticSearch integration with Drupal and WordPress is better than aimless
+crawling from a third-party website but I have to admit I'm not impressed so far. It's
+possible that Google Custom Search is the right choice for now, perhaps?
