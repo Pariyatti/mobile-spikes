@@ -9,4 +9,5 @@ https://help.dreamhost.com/hc/en-us/articles/215769478-Non-profit-discount
 
 If we already have a non-profit account with Dreamhost, it could host both:
   - Mediawiki (Wikibase as semantic document store)
+    - Prateek was suggesting https://opds.io as an app integration point?
   - WordPress (CMS as web frontend)
