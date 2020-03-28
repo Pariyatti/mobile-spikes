@@ -9,7 +9,10 @@ Please treat this document as the hub of all other documentation for the Mobile 
 - [Glossary](https://github.com/Pariyatti-apps/pariyatti-mobile-app-spike/blob/master/GLOSSARY.md)
 - [Questions](https://github.com/Pariyatti-apps/pariyatti-mobile-app-spike/blob/master/QUESTIONS.md)
 - [Team Roster](https://drive.google.com/drive/folders/1RTAw2izD3m9hb79DJE2uu-4qepFby0px?usp=sharing) (private)
+
 - [Design Docs](https://drive.google.com/drive/folders/1Iga6z-5tndLJ411XG5ibimLwNC5VZDVv?usp=sharing) (public)
+- [What is a database?](https://docs.google.com/document/d/1QuiWPaAUH9_UOeBouGGCgF_FyRRhoL4uLkfKvSsbw2o/edit#)
+
 - [Dhamma Podcast Feed](http://feeds.pariyatti.org/dhammapodcasts)
 - [Daily RSS Feed](https://www.pariyatti.org/Free-Resources/Daily-Words/RSS-Feeds)
 
