@@ -12,5 +12,6 @@ router.register(r'cards', views.CardViewSet)
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('', include(router.urls)),
+    path('today/', views.today_view, name='today'),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
