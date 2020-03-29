@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('libra/', include('libra.urls')),
+    path('libra/', include('paddhati.libra.urls')),
+    path('api/', include('paddhati.api.urls')),
     path('admin/', admin.site.urls),
 ]

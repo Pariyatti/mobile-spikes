@@ -30,7 +30,8 @@ which python # should return: /Users/$USER/.pyenv/shims/python
 2. Install Django:
 
 ```sh
-python -m pip install Django
+pip install django
+pip install djangorestframework
 which django-admin # if there is no django-admin, you'll have to do something like this:
 ln -s /Users/$USER/.pyenv/versions/3.7.3/lib/python3.7/site-packages/django/bin/django-admin.py /usr/local/bin/django-admin
 cd ~/work/pariyatti/paddhati # or whatever
