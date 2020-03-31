@@ -40,7 +40,9 @@ class CardViewSet(viewsets.ModelViewSet):
 def today_view(request):
     i = "https://pariyatti.org/portals/0/Images/treasures/ws.jpg"
     q = "Ven. Webu Sayadaw was one of the most highly respected monks of the last century in Burma. He was notable in giving all importance to diligent practice rather than to scholastic achievement. Webu Sayadaw was born in the village of Ingyinpin in upper Burma on 17 February 1896. He underwent the usual monk's training in the Pāli scriptures from the age of nine, when he became a novice, until he was twenty-seven. In 1923 (seven years after his ordination), he left the monastery and spent four years in solitude. He practiced (and later taught) the technique of Ānāpāna-sati (awareness of the in-breath and out-breath)."
-    c = model_to_dict(Card(image=i, quote=q))
+    t = "inspiration"
+    a = "overlay"
+    c = model_to_dict(Card(type=t, alignment=a, image=i, quote=q))
     today_card_list = [c, c, c, c, c, c, c, c, c, c, c, c, c, c, c]
     context = {'today_cards': today_card_list}
     json_data = json.dumps(context)
