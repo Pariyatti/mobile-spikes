@@ -17,11 +17,13 @@ As we come across new terms or adjust old terms, please define and re-define the
 
 - **pariyatti**: The Pali word for "theory" in the sense of Dhamma, as taught intellectually, through literature. Also the name of the [501(c)(3) US-based non-profit](https://en.wikipedia.org/wiki/Pariyatti).
 
+- **prototype**: Semantically similar to "spike" but with the intention of keeping the output and iterating on it. A prototype can be thought of as a spike that has graduated to a point where users will get involved in experimentation.
+
 - **Resources**: The "Resources" **section** contains searchable books, audio, and videos as both online content and physical media for sale through the [Pariyatti Store](https://store.pariyatti.org/).
 
 - **section**: A group of information available through the app by clicking one of the five **tabs** at the bottom of the screen.
 
-- **spike**: Traditionally an experimental sample of a proposed application, running from the user interface(s) to the back end processing and storage services. In our case, we might also "spike" experiments with different software frameworks or architecture before the actual development begins.
+- **spike**: Traditionally an experimental sample of a proposed application, running from the user interface(s) to the back end processing and storage services. Semantically similar to "prototype" but a spike is usually thrown out rather than iterated on once it has proven useful. In our case, we might also "spike" experiments with different software frameworks or architecture before the actual development begins.
 
 - **tab**: The five **sections** of the app ("Today", "Resources", "Offerings", "Account", "Donate") can be navigated to, from the bottom of the app, with clickable UI elements called "tabs".
 
