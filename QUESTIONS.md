@@ -13,61 +13,37 @@ Yes, we do (Brihas)
 We use LastPass Enterprise (Brihas)
 
 - How do we chat / communicate?
-    - Email? --- Steve says they are trying to reduce email traffic.
-    - Calls? When and how? --- Google Hangouts Meet
-We have a GoToMeeting account that can be used if needed (Brihas)    
-    - Group chat for devs?
-        - Google Hangouts Chat seems fundamentally broken for interaction between users within different Google zones; I can't figure out how to allow a Gmail user to join a room I've created in a G Suite organization... this feels like it makes Google Chat a non-starter even before getting to the problem of the required Google account.
-        - Slack has message restrictions and ethics issues
-        - RocketChat?
+    - Email
+    - Calls: GoToMeeting, Hangouts, WhatsApp, Telegram    
+    - Group chat: For now, we have a single Telegram channel
 
 - What Project Management tool do we want to use?
-    - Asana --- already used at Pariyatti, so if we stick to Asana that will be better for Pariyatti staff involved in this project (Brihas)
-    - Trello?
-    - GitHub boards?
-    - Clubhouse? https://app.clubhouse.io/
+    - Asana
 
 - GitHub vs. GitLab?
-
+    - We have chosen to stick with GitHub for now. See [Contributing](https://github.com/pariyatti/agga/blob/master/CONTRIBUTING.md)
 
 ## Ops
 
 - What does the current system topology look like?
 
 - Are we replacing DotNetNuke + 3Dcart with Drupal + something-else?
-    - Can Dhamma Servers help the Pariyatti staff with this project?
-That would be great! (Brihas)    
-    
-    - Will Drupal shadow/forward the old URLs so they don't break? We've had website transitions in the past, and sucessfully setup HTTP 301 re-directs to map old URLs to new URLs and it works well (Brihas)
+    - Can Dhamma Servers help the Pariyatti staff with this project? - That would be great! (Brihas)    
+    - Will Drupal shadow/forward the old URLs so they don't break? - We've had website transitions in the past, and sucessfully setup HTTP 301 re-directs to map old URLs to new URLs and it works well (Brihas)
 
 
 ## Development
 
-- How do we write a solid `CONTRIBUTING.md` that hardens:
-    - technology
-    - decision process (how to design on a 5-10 year timescale)
-    - how to become a contributor
-
 - Is everyone cool with Architectural Decision Records (ADRs)?
-
-- Should we build the app on ReactNative, Flutter, or Cordova?
-    - If ReactNative, can we use TypeScript? (Assume ClojureScript is out?)
-    - What are the pros/cons of each? (Language, Framework, Long-term stability, Dev community, Deprecation)
-    - What does a spike of the "Today" infinite scroll look like on each?
-    - Will all 3 work for Offline First?
-    - i18n advantages?
-
-- Does the editorial process require more knowledge management than a standard CMS offers?
 
 - Do we need an abstract API layer between the CMS and the app?
     - DNN / Drupal API?
     - 3Dcart / replacement API?
     - 3x RSS feeds for "Daily Words of the Buddha" - source?
- You can find all our RSS feeds at: https://www.pariyatti.org/Free-Resources/Daily-Words/RSS-Feeds (Brihas)
- 
+        - You can find all our RSS feeds at: https://www.pariyatti.org/Free-Resources/Daily-Words/RSS-Feeds (Brihas)
     - Basic UX:
         - "queue a book list into the `Today` stream": where is this persisted?
         - bookmarks peristence?
 
 - What is the safest, long-term platform for server-side software?
-    - Java and Python seem like good bets. Others?
+    - Java, Ruby, and Python seem like good bets. Others?
