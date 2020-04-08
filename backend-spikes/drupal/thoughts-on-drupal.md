@@ -11,6 +11,18 @@ I know we are leaning towards Drupal 7. Hence a few questions:
 * What happens at Drupal 7 end-of-life?
 * What are the specific Drupal 7 modules we need that Drupal 8 does not support?
 
+## Answers from Ankur
+
+Yes, it is a tricky situation.
+
+The reason I am thinking of Drupal 7 is because I want to get us on Drupal as smoothly as possible without having to spend much time on it. The Commerce Kickstart module, Stamps, Quickbooks integration modules etc. are all ready for Drupal 7 with extensive development done over the years. But, unfortunately many of them have not yet started development for Drupal 8. We will probably start getting some alternatives in 2021 or later. Besides the modules, the theming is very tricky with 8 & quite time consuming.
+
+Even after EOL, I think we will still be able to get by easily for at least a year. Drupal 7 has fairly robust security, so it shouldn't be a problem. I have a lot of experience on Drupal 7, so there is nothing to worry about.
+
+Drupal 8 was developed after a lot of Java developers joined the team & thus it is too object oriented. Drupal 7 is completely procedural. So, in many ways 7 is much much better than 8. But, unfortunately it is going in the object oriented direction & we'll have to adjust.
+
+The alternative is to wait for Drupal 8 modules to be developed to fit our needs & then migrate. Drupal 9 is also going to be released soon, I think. So, it is a little bit of a mess. But, 7 is our best bet to get things moving, given the current situation.
+
 ## Drupal 7
 
 * Released in 2011
