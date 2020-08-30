@@ -7,10 +7,19 @@ This repository still exists for experiments and high-level spikes (like testing
 - https://github.com/pariyatti/agga - Pariyatti's documentation repo
 - https://github.com/pariyatti/kosa - The editorial, library, and publishing service.
 
+## Branch Policy
+
+This repo has no branch policy. Because this is all throw-away code, please feel free to commit directly to `master`.
 
 ## Spiking and Resarching
 
-These steps were followed during the research phase of this project:
+### ToDo:
+
+1. [ ] Spike Neo4j + Clojure (in general)
+2. [ ] Spike Neo4j + web file uploads (1. local disk => 2. S3 bucket?)
+3. [ ] Spike / research simple authentication mechanism (necessary?)
+
+### Done:
 
 1. [x] Project kick-off / inception
 2. [x] Legacy software discovery & replacement (ongoing)
