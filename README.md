@@ -15,9 +15,12 @@ This repo has no branch policy. Because this is all throw-away code, please feel
 
 ### ToDo:
 
-1. [ ] Spike Neo4j + Clojure (in general)
-2. [ ] Spike Neo4j + web file uploads (1. local disk => 2. S3 bucket?)
-3. [ ] Spike / research simple authentication mechanism (necessary?)
+1. [ ] Neo4j + Clojure (in general)
+  - [x] initial setup (so far, so good!)
+  - [ ] try one of kosa's more awkward data models? "pali word" card with a list of N translations?
+2. [ ] Neo4j + web file uploads (1. local disk => 2. S3 bucket?)
+3. [ ] How hard is it to migrate Rails ERB templates?
+4. [ ] Spike / research simple authentication mechanism (is this even necessary?)
 
 ### Done:
 
