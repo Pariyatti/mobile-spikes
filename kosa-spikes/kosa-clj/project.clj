@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [gorillalabs/neo4j-clj "4.0.1"]
                  [org.neo4j.test/neo4j-harness "4.0.0"]]
+  :main kosa-clj.core
   :repl-options {:init-ns kosa-clj.core})

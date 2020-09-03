@@ -2,10 +2,10 @@
   (:require[neo4j-clj.core :as neo4j])
   (:import (java.net URI)))
 
-(defn foo
+(defn -main
   "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+  [& args]
+  (println "Hello, World!"))
 
 (neo4j/defquery create-book
   "CREATE (u:book $book)")
