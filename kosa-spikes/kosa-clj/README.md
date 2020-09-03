@@ -13,14 +13,21 @@ Install `clojure` as described [here](https://www.clojure.org/guides/getting_sta
 Install `lein` as described [here](https://leiningen.org/#install)
 
 - Docker
-Install `docker` on the machine as described [here](https://www.docker.com/get-started)
+Install `docker` as described [here](https://www.docker.com/get-started) and `docker-compose` as described [here](https://docs.docker.com/compose/install/)
 
 ## Usage
 
 ### Running neo4j
-The kosa-clj app needs an neo4j database instance. The `dev-docker.yaml` script sets that up. Use the following command to boot up neo4j using docker
+The kosa-clj app needs an neo4j database instance. The `dev-docker.yaml` script sets that up. Use the following command to boot up neo4j using docker. `sudo` is optional on MacOS but required for Linux.
+
 ```
-docker-compose -f dev-docker.yaml up -d
+sudo docker-compose -f dev-docker.yaml up -d
+```
+
+You can stop Neo4j with:
+
+```
+sudo docker-compose -f dev-docker.yaml down
 ```
 
 ### Running the Clojure repl and code
@@ -33,6 +40,10 @@ For just running the app use
 ```
 lein run
 ```
+
+## Handy Links
+
+- `docker-compose.yml` example: https://neo4j.com/docs/labs/neo4j-streams/current/docker/#_source_module
 
 ## License
 

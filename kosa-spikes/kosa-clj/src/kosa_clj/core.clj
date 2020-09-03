@@ -16,7 +16,7 @@
 (def db
   (neo4j/connect (URI. "bolt://localhost:7687")
                  "neo4j"
-                 "neo4j"))
+                 "mangalho"))
 
 (defn create-book-fn [book]
   (with-open [session (neo4j/get-session db)]
@@ -37,4 +37,3 @@
   (get-all-books session))
 
 (get-book-fn)
-

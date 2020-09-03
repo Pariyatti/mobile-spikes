@@ -8,6 +8,8 @@ services:
       - 7687:7687
     volumes:
       - graph_data_dir:/data
+    environment:
+      NEO4J_AUTH: neo4j/mangalho
 
 volumes:
   graph_data_dir:
