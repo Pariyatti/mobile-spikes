@@ -2,6 +2,38 @@
 
 Kosa service backend written in clojure
 
+## Setup
+
+### Development Dependencies
+
+- Clojure
+Install `clojure` as described [here](https://www.clojure.org/guides/getting_started)
+
+- Leinengen
+Install `lein` as described [here](https://leiningen.org/#install)
+
+- Docker
+Install `docker` on the machine as described [here](https://www.docker.com/get-started)
+
+## Usage
+
+### Running neo4j
+The kosa-clj app needs an neo4j database instance. The `dev-docker.yaml` script sets that up. Use the following command to boot up neo4j using docker
+```
+docker-compose -f dev-docker.yaml up -d
+```
+
+### Running the Clojure repl and code
+To start the app with repl for interactive coding use
+```
+lein repl
+```
+
+For just running the app use
+```
+lein run
+```
+
 ## License
 
 Copyright © 2020 Pariyatti.org
