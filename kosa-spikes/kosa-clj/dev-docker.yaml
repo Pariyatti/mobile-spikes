@@ -7,9 +7,6 @@ services:
       - 7474:7474
       - 7687:7687
     volumes:
-      - graph_data_dir:/data
+      - ./dev/graphdb:/data
     environment:
       NEO4J_AUTH: neo4j/mangalho
-
-volumes:
-  graph_data_dir:
