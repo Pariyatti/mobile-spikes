@@ -1,2 +1,3 @@
 /docs/design
 **/.DS_Store
+*.secret.edn

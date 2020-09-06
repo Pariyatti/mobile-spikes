@@ -7,6 +7,8 @@
                  [gorillalabs/neo4j-clj "4.0.1"]
                  [org.neo4j.test/neo4j-harness "4.0.0"]
                  [com.taoensso/timbre "4.10.0"]
-                 [com.fzakaria/slf4j-timbre "0.3.19"]]
+                 [com.fzakaria/slf4j-timbre "0.3.19"]
+                 [mount "0.1.16"]
+                 [aero "1.1.6"]]
   :main kosa-clj.core
   :repl-options {:init-ns kosa-clj.core})
