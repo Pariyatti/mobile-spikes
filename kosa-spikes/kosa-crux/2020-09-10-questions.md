@@ -40,4 +40,7 @@
   - vs. trading & finance systems (almost the opposite)
   - is this "backfill"? :)
   - "bitemporal range queries" ref: StrangeLoop Sept 2019
+- was CAS removed in favour of `match`?
+
+
 
