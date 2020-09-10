@@ -2,6 +2,7 @@
 
 - #crux on Clojurians Slack
 - shared Slack channel w nilenso
+  - [ ] Slack bridge
 - official: zulip => #crux-dev
 - contributions definitely welcome
 - land grab: cloud doc storage adapters (azure, google cloud, etc.)
@@ -34,6 +35,7 @@
 
 - how easy is it to migrate onto *today*? (neo4j => crux)
   - pros and cons of docs vs. tuples
+    - [ ] research
   - crux has the txn log
   - moving off neo4j might be hard?
   - datomic => crux is possible but no big dbs transitioned yet
@@ -44,13 +46,39 @@
   - just Hakan so far
 
 - explain the life cycle we're anticipating for the documents which need to live in pariyatti's library; ask they're honest opinion of Crux is a good fit
+  - feels ok (see notebook)
 
 - modeling:
   - derivative works? (say, translations / transcripts)
   - editions? is an edition a der. work or new valid-time?
   - how to model a document from 300 BCE?
   - tweaks? (ex. "monk changed one word in 1400")
+    - "ship of theseus all the way down"
+    - lean on relationship between identity and time
+    - all identities are fiction / are models
+    - `valid-time` is a bit of a hammer; harder to query
+    - at a certain point, everything is single-character documents / CRDTs
+    - conclusion: maybe don't change existing documents if possible?
   - when do you draw the line and model a relationship as a document?
+
+- pain points:
+  - inheritance (but attributes can be inherited)
+  - sorting is a bit tricky with big data
+  - RDF capabilities
+  - Datomic's Composite Tuples - doesn't exist in Crux yet
+
+- structure on a spectrum:
+  1. tabular
+  2. graph
+  3. totally unstructured
+
+...arguably, Publisher could be in tabular (pgsql) and Library in 2+3 (crux). But between-db consistency problems go away if we just use Crux rather than Crux+Postgres. Also less mental overhead in worrying about Datalog on one side and SQL on the other.
+
+- schema migrations?
+  - for a single doc: `clojure.spec`
+  - can always put new schema version (data "migration") over old docs
+  - there is a coming schema layer
+  - schema layer even supports SQL
 
 # Tech
 
@@ -58,6 +86,7 @@
   - is there built-in search?
   - WIP -- using Lucene node
 - distributed ACID all through Kafka? (future concern)
+  - yup, pretty much
 - graph specifics for specifically graph-shaped data?
   - just graph queries? or graph storage?
   - could be "graph-looking" if need be, though inefficient
@@ -71,7 +100,7 @@
   - vs. trading & finance systems (almost the opposite)
   - is this "backfill"? :)
   - "bitemporal range queries" ref: StrangeLoop Sept 2019
-- was CAS removed in favour of `match`?
-
+- was CAS removed in favour of`match`?
+  - yes. because compare on entity A and swap on entity B pollutes entity A's timeline
 
 
