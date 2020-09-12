@@ -5,7 +5,9 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [mount "0.1.16"]
-                 [aero "1.1.6"]]
+                 [aero "1.1.6"]
+                 [juxt/crux-core "20.09-1.11.0-beta"]
+                 [juxt/crux-rocksdb "20.09-1.11.0-beta"]]
   :main ^:skip-aot kosa-crux.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
